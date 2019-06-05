@@ -55,8 +55,9 @@ body {
 }
 
 .top-bar .social .fa {
-    font-size: 14px;
     color: #fff;
+    width: 20px;
+    text-align: center;
 }
 
 .top-bar .list-inline li {
