@@ -92,16 +92,13 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link">Home</a>
               </li>
               <li class="dropdown nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span class="caret"></span>Amavtron</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#about">Quem Somos</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#project">Projetos</a>
+                    <a class="dropdown-item" href="quem-somos.html" target="_self">Quem Somos</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#diretoria">Diretoria</a>
@@ -130,26 +127,26 @@
         <!-- /.container -->
       </nav>
     </div>
-    <section id="time-line">
-      <div class="cb-intro4" style="/* background-image: url('https://images.unsplash.com/14/unsplash_524010c76b52a_1.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ&s=4d50de4f66271644b52efa3da656f146') */">
+    <header data-pgc-define="breadcrumb" data-pgc-define-name="Breadcrumb" data-pgc-define-auto-update="false">
+      <div class="cb-intro4" style="/* background-image: url('https://images.unsplash.com/14/unsplash_524010c76b52a_1.JPG?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjIwOTIyfQ&amp;s=4d50de4f66271644b52efa3da656f146') */;">
         <div class="overlay h-100">
           <div class="container h-100">
             <div class="content h-100 d-flex align-items-center justify-content-end">
-              <h2>QUEM SOMOS</h2> 
+              <h2 data-pgc-edit="bread-title" data-pgc-edit-types="breadcrumb">QUEM SOMOS</h2> 
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="#">Home</a>
-      </li>
-      <li class="breadcrumb-item">
-        <a href="#">Library</a>
-      </li>
-      <li class="breadcrumb-item active" aria-current="page">quem somos</li>
-    </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="#">Amavtron</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">quem somos</li>
+      </ol>
+    </header>
     <section id="about">
       <div class="cb-title14">
         <div class="container">
@@ -229,21 +226,19 @@
         </div>
       </div>
     </section>
-    <section id="cb-title-1-14"> 
+    <section id="diretoria" data-pgc="team">
       <div class="cb-title14">
         <div class="container">
           <div class="row d-flex flex-column align-items-center">
-            <h6>Nossos Profissionais</h6>
-            <h3 class="text-center">COLABORADORES</h3>
+            <h6 style="color: #3498db; text-transform: uppercase;">Nossos Profissionais</h6>
+            <h3 class="text-center">DIRETORIA</h3>
             <p class="text-center">Saiba quem são</p>
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-team-1-18">
-      <div class="cb-team18"> 
-        <div class="container"> 
-          <div class="row"> 
+      <div class="cb-team18">
+        <div class="container">
+          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="hoverbox" style="background-image: url('images/team/team1.jpg');">
                 <div class="hoverbox-content">
@@ -267,40 +262,38 @@
                   <span class="post">Lorem Ipsum</span>
                 </div>
               </div>
-            </div>             
-          </div>           
-        </div>         
-      </div>       
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="cb-footer-1-4" class="cb-footer-block cb-footer-1-4">
-      <div class="cb-footer4"> 
-        <div class="container"> 
-          <div class="row verticaldivide"> 
-            <div class="col-md-6"> 
-              <img src="images/logo.png" alt="Logo" class="img-fluid" width="150px"> 
-              <p>Fusce non dui at turpis ornare rhoncus. Dolor suspendisse a consec tetur ex. Donec sollic itudin sem est, ut luctus magna amet bibendum vel. Etiam condimentum sagittis metus nec hendrerit dolor sit.</p> 
-            </div>             
-            <div class="col-md-6"> 
-              <h3>Newsletter</h3> 
-              <div class="form-subscribe"> 
-                <form action="#" class="flex-md-row d-md-flex"> 
-                  <input type="text" class="form-control" placeholder="Email Address"> 
-                  <a href="#" class="btn">Subscribe</a> 
+    <footer data-pgc="footer">
+      <div class="cb-footer4">
+        <div class="container">
+          <div class="row verticaldivide">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/logo.png" alt="Logo Amavtron"/>
+              <p>A Amavtron é Centro Educacional para crianças e adolecentes da comunidade do Bairro Santa Tereza e Medianeira, Zona Sul de Porto Alegre.</p>
+            </div>
+            <div class="col-md-6">
+              <h3>Newsletter</h3>
+              <div class="form-subscribe">
+                <form class="flex-md-row d-md-flex" action="#">
+                  <input class="form-control" type="text" placeholder="Email Address"/>
+                  <a class="btn" href="#">Subscribe</a>
                 </form>
-                <p>Don't worry we hate spam.</p> 
-              </div>               
-            </div>             
-          </div>           
-        </div>         
-      </div>       
-    </section>
-    <section id="cb-footer-1-2" class="cb-footer-block cb-footer-1-2">
-      <div class="cb-footer2"> 
-        <div class="container"> 
-          <p>Copyrights © 2017 All Rights Reserved by Chocka Blocks</p> 
-        </div>         
-      </div>       
-    </section>
+                <p>Don't worry we hate spam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cb-footer2">
+        <div class="container">
+          <p>Copyrights © 1987 - 2017 All Rights Reserved by MNH</p>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

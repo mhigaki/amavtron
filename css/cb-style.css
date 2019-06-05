@@ -19651,12 +19651,13 @@
 .cb-portfolio1 .filters .btn {
     background-color: transparent;
     color: #000;
-    border: 1px solid #000;
     border-radius: 3px;
+    border: 1px solid #3f3f40;
+    border-style: solid;
 }
 
 .cb-portfolio1 .filters .btn:hover {
-    background-color: #000;
+    background-color: #6dbef4;
     color: #fff;
 }
 
@@ -19677,6 +19678,7 @@
     -webkit-column-width: 33.33333333333333%;
     -moz-column-width: 33.33333333333333%;
     column-width: 33.33333333333333%;
+    object-fit: cover;
 }
 
 /* Media */
@@ -19711,6 +19713,7 @@
 
 .cb-portfolio1 .scale-anm {
     transform: scale(1);
+    border-top-color: #163f49;
 }
 
 .cb-portfolio1 .tile img {
@@ -19719,6 +19722,7 @@
     height: 250px;
     margin-bottom: 1rem;
     object-fit: cover;
+    border-top-color: #0a6d85;
 }
 
 .cb-portfolio1 .title h3 {
@@ -25551,11 +25555,11 @@
 
 /* footer2 */
 .cb-footer2 {
-    text-transform: uppercase;
-    padding: 20px 10px;
+    /*text-transform: uppercase*/
+    padding: 10px;
     text-align: center;
     color: #fff;
-    background: #425cbb;
+    background-color: #3498db;
 }
 
 .cb-footer2 p {
@@ -25583,9 +25587,9 @@
 
 /* footer4 */
 .cb-footer4 {
-    padding: 80px 40px;
-    background: #282828;
+    padding: 40px;
     color: #fff;
+    background-color: #282828;
 }
 
 .cb-footer4 .row.verticaldivide [class*='col-']:not(:last-child):after {

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Blank Template for Bootstrap</title>
+    <meta name="description" content="Centro Educacional para crianças e adolecentes da comunidade do Bairro Santa Tereza e Medianeira, Zona Sul de Porto Alegre.">
+    <meta name="author" content="MNH">
+    <title>AMAVTRON : SASE</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="css/cb-style.css" rel="stylesheet">
@@ -101,9 +101,6 @@
                     <a class="dropdown-item" href="quem-somos.html" target="_self">Quem Somos</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="projetos-sociais.html" target="_self">Projetos</a>
-                  </li>
-                  <li>
                     <a class="dropdown-item" href="#diretoria">Diretoria</a>
                   </li>
                   <li>
@@ -118,7 +115,7 @@
                 <a class="nav-link" href="#galeria">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#donation">Doação</a>
+                <a class="nav-link" href="docao.html">Doação</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contato</a>
@@ -130,7 +127,7 @@
         <!-- /.container -->
       </nav>
     </div>
-    <section id="cb-header-1-35">
+    <section id="slider">
       <div class="cb-header35" style="background-image: url('images/amavtron-frente.png');">
         <div class="overlay">
           <div class="container-fluid w-100 h-100">
@@ -145,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="about" data-pgc-define="about" data-pgc-define-name="About">
       <div class="cb-title14">
         <div class="container">
           <div class="row d-flex flex-column align-items-center">
@@ -195,7 +192,7 @@
         </div>
       </div>
     </section>
-    <section id="cb-cta-1-3">
+    <section id="cta" data-pgc-define="cta" data-pgc-define-name="Cta">
       <div class="cb-cta3">
         <div class="container d-flex align-items-center justify-content-around">
           <h3>Seja um parceiro, nossas crianças agradecem.</h3>
@@ -203,7 +200,7 @@
         </div>
       </div>
     </section>
-    <section id="project">
+    <section id="project" data-pgc-define="project" data-pgc-define-name="Project">
       <div class="cb-title14">
         <div class="container">
           <div class="row d-flex flex-column align-items-center">
@@ -213,8 +210,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-content-1-14">
       <div class="cb-content14">
         <div class="row">
           <div class="nopaddingnomargin col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
@@ -230,8 +225,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-content-1-15">
       <div class="cb-content15">
         <div class="row">
           <div class="col-lg-6 nopaddingnomargin col-xl-6 col-md-6 col-sm-6 col-12">
@@ -248,8 +241,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-grid-1-1">
       <div id="page" class="cb-grid1">
         <div id="content">
           <div id="box-area">
@@ -320,18 +311,16 @@
         </div>
       </div>
     </section>
-    <section id="diretoria">
+    <section id="diretoria" data-pgc-define="team" data-pgc-define-name="Team">
       <div class="cb-title14">
         <div class="container">
           <div class="row d-flex flex-column align-items-center">
             <h6 style="color: #3498db; text-transform: uppercase;">Nossos Profissionais</h6>
-            <h3 class="text-center">COLABORADORES</h3>
-            <p class="text-center">From elements & Properties PG Tab</p>
+            <h3 class="text-center">DIRETORIA</h3>
+            <p class="text-center">Saiba quem são</p>
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-team-1-18">
       <div class="cb-team18">
         <div class="container">
           <div class="row">
@@ -363,20 +352,20 @@
         </div>
       </div>
     </section>
-    <section id="cb-footer-1-4">
+    <footer data-pgc-define="footer" data-pgc-define-name="Footer">
       <div class="cb-footer4">
         <div class="container">
           <div class="row verticaldivide">
             <div class="col-md-6">
-              <img src="images/logo.png" alt="Logo Amavtron" class="img-fluid">
-              <p>Fusce non dui at turpis ornare rhoncus. Dolor suspendisse a consec tetur ex. Donec sollic itudin sem est, ut luctus magna amet bibendum vel. Etiam condimentum sagittis metus nec hendrerit dolor sit.</p>
+              <img class="img-fluid" src="images/logo.png" alt="Logo Amavtron"/>
+              <p>A Amavtron é Centro Educacional para crianças e adolecentes da comunidade do Bairro Santa Tereza e Medianeira, Zona Sul de Porto Alegre.</p>
             </div>
             <div class="col-md-6">
               <h3>Newsletter</h3>
               <div class="form-subscribe">
-                <form action="#" class="flex-md-row d-md-flex">
-                  <input type="text" class="form-control" placeholder="Email Address">
-                  <a href="#" class="btn">Subscribe</a>
+                <form class="flex-md-row d-md-flex" action="#">
+                  <input class="form-control" type="text" placeholder="Email Address"/>
+                  <a class="btn" href="#">Subscribe</a>
                 </form>
                 <p>Don't worry we hate spam.</p>
               </div>
@@ -384,14 +373,12 @@
           </div>
         </div>
       </div>
-    </section>
-    <section id="cb-footer-1-2">
-      <div class="cb-footer2" style="background-color: #3498db;">
+      <div class="cb-footer2">
         <div class="container">
-          <p>Copyrights © 2017 All Rights Reserved by Chocka Blocks</p>
+          <p>Copyrights © 1987 - 2017 All Rights Reserved by MNH</p>
         </div>
       </div>
-    </section>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
