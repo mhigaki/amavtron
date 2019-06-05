@@ -76,7 +76,7 @@ body {
 
 .nav-02 .navbar-brand {
     background-color: none;
-    height: 71px;
+    height: 75px;
     position: absolute;
     top: 10px;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .nav-02 .navbar .navbar-nav > .active {
-    color: #282828;
+    color: #ffd42a;
     background: none;
 }
 
@@ -123,6 +123,9 @@ body {
 .nav-02 .navbar .navbar-nav > .active > a:focus {
     color: #fff;
     background: none;
+}
+
+.nav-02 .navbar .navbar-nav > li:hover {
 }
 
 .nav-02 .navbar .navbar-nav > li {
@@ -138,13 +141,14 @@ body {
 }
 
 .nav-02 .navbar .navbar-nav > li > a:hover {
-    color: #282828 !important;
+    color: #000000 !important;
     background: none;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-color: #d82222;
+
+    /* background-color: #6dbef4*/
 }
 
 .nav-02 .navbar .navbar-collapse,
@@ -158,12 +162,12 @@ body {
 
 .nav-02 .dropdown-item {
     background-color: #3498db;
-    color: #000;
+    color: #ffffff;
 }
 
 .nav-02 .dropdown-item:hover,
 .nav-02 .dropdown-item:focus {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     background-color: #6dbef4;
 }
