@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Abel;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/* *** Menu Top-Bar*/
+.top-bar .top a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.top-bar .top a:hover {
+    color: #ffd42a;
+    text-decoration: none;
+}
+
+#nav-top-bar .top-bar {
+    background: #282828;
+    min-height: 40px;
+}
+
+.top-bar .top {
+    margin-top: 7px;
+    color: #fff;
+}
+
+.top-bar i {
+    color: #fff;
+    font-weight: 300;
+    line-height: 25px;
+    margin-right: 9px;
+}
+
+.top-bar .fa {
+    color: #ffd42a;
+    margin-right: 6px;
+}
+
+.top-bar ul li {
+    margin-right: 15px;
+}
+
+.top-bar .social {
+    padding: 8px 0;
+}
+
+.top-bar .social .fa {
+    font-size: 14px;
+    color: #fff;
+}
+
+.top-bar .list-inline li {
+    float: left;
+}
+
+/*  *** Navigation Menu *****/
+.nav-02 .navbar {
+    background: #3498db;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    border-bottom: 1px solid #898989;
+}
+
+.nav-02 .navbar-brand {
+    background-color: none;
+    height: 71px;
+    position: absolute;
+    top: 10px;
+}
+
+.nav-02 .navbar-brand img {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .nav-02 .navbar-brand {
+        height: 61px;
+    }
+
+    .nav-02 .navbar-brand img {
+        height: 100%;
+    }
+
+    .nav-02 .navbar .navbar-nav > li {
+        padding: 10px 0px !important;
+    }
+}
+
+.nav-02 .navbar .navbar-toggler,
+.nav-02 .navbar .navbar-toggler:focus,
+.nav-02 .navbar .navbar-toggler:hover {
+    background: none;
+    color: #282828;
+    border: 0;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.nav-02 .navbar .navbar-nav > .active {
+    color: #282828;
+    background: none;
+}
+
+.nav-02 .navbar .navbar-nav > .active > a {
+    color: #282828 !important;
+    background: none;
+}
+
+.nav-02 .navbar .navbar-nav > .active > a:hover,
+.nav-02 .navbar .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: none;
+}
+
+.nav-02 .navbar .navbar-nav > li {
+    padding: 10px 0;
+}
+
+.nav-02 .navbar .navbar-nav > li > a,
+.nav-02 .navbar .navbar-nav > li > a:focus {
+    color: #fff !important;
+    background: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.nav-02 .navbar .navbar-nav > li > a:hover {
+    color: #282828 !important;
+    background: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #d82222;
+}
+
+.nav-02 .navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.nav-02 .navbar-collapse {
+    border-top: 1px solid #fff;
+}
+
+.nav-02 .dropdown-item {
+    background-color: #3498db;
+    color: #000;
+}
+
+.nav-02 .dropdown-item:hover,
+.nav-02 .dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6dbef4;
+}
+
+.nav-02 .dropdown:hover >.dropdown-menu {
+    display: block;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: Dosis;
+    font-weight: 600;
+}
+
+.title-about {
+}
+
+.cb-title14 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.cb-content45 p {
+    font-size: 18px;
+}
+
+.cb-content45 h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #3498db;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+Style attribute {
+}

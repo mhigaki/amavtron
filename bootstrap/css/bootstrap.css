@@ -3446,7 +3446,7 @@ input[type="button"].btn-block {
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: #4ba4de;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
@@ -4737,8 +4737,10 @@ input[type="button"].btn-block {
 @media (max-width: 991.98px) {
     .navbar-expand-lg > .container,
     .navbar-expand-lg > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
+        /*padding-right: 0
+ */
+        /*padding-left: 0
+ */
     }
 }
 
