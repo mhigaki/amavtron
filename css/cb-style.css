@@ -25209,7 +25209,7 @@
 
 .cb-pageloginregister1 .lr-box {
     border: 1px solid #ededed;
-    padding: 25px;
+    padding: 5px;
     background: #fff;
 }
 
@@ -25244,8 +25244,9 @@
     color: #ffffff;
 }
 
-.cb-pageloginregister1 p {
+.cb-pageloginregister1 label {
     font-size: 12px;
+    border-top-color: #373738;
 }
 
 .cb-pageloginregister1 a {
@@ -25261,11 +25262,11 @@
 
 .cb-pageloginregister1 .form-control {
     background-color: #fff;
-    border: 1px solid #425cbb;
     width: 100%;
     border-radius: 2px;
     margin: 0 auto;
     color: #282828;
+    border: 1px solid #413e3b;
 }
 
 /*form4*/

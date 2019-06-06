@@ -242,3 +242,43 @@ h6 {
 
 Style attribute {
 }
+
+.cb-pageloginregister1 label {
+    font-size: 12px;
+    border-top-color: #373738;
+}
+
+.icon-social-fcb {
+    width: 45px;
+}
+
+.icon-social-twt {
+    text-align: center;
+    width: 45px;
+}
+
+.icon-social-itg {
+    text-align: center;
+    width: 45px;
+}
+
+div.share {
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+div.address {
+    margin: 0;
+    padding: 4px;
+}
+
+div.phone {
+    margin: 0;
+    padding: 4px;
+}
+
+div.email {
+    margin: 0;
+    padding: 4px;
+}
