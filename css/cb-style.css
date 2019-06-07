@@ -6357,6 +6357,7 @@
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
+    background-image: url('https://images.unsplash.com/photo-1553585986-d299fb228758?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ');
 }
 
 .cb-intro4 .overlay {
