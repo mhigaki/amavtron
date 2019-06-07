@@ -211,6 +211,8 @@ h6 {
 
 .cb-content45 p {
     font-size: 18px;
+
+    /* line-height: 2em*/
 }
 
 .cb-content45 h3 {
@@ -283,4 +285,108 @@ div.phone {
 div.email {
     margin: 0;
     padding: 4px;
+}
+
+.cb-title1 p {
+    font-size: 22px;
+    width: 75%;
+}
+
+.cb-title10 h3 {
+    font-size: 130px;
+    color: #ebebeb;
+    z-index: -1;
+    display: inline-flex;
+}
+
+.cb-title10 .top h5 {
+    color: #3498db;
+}
+
+.cb-header35 .content h1 span {
+    color: #3498db;
+    font-weight: 700;
+}
+
+.cb-content14 p {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.cb-content15 p {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.cb-grid1 #box-excerpt {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.btn-effect {
+    background: #0b6e45;
+}
+
+.btn {
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    font-size: 1em;
+}
+
+.btn-effect:hover {
+    overflow: hidden;
+}
+
+.btn:focus {
+    color: #ffffff;
+    outline: none;
+}
+
+.btn:active {
+    color: #ffffff;
+    outline: none;
+}
+
+.form-control {
+    height: auto;
+}
+
+.form-control,
+textarea {
+    background: #F7F7F7;
+    border: none;
+    font-size: 15px;
+    outline: medium none;
+    color: #999;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    box-shadow: none;
+}
+
+.form-control:focus,
+textarea:focus {
+    box-shadow: none;
+
+    .form-control:focus,
+    textarea:focus {
+        box-shadow: none;
+        border-bottom: 2px solid #ffbb02;
+    }
+
+    border-bottom: 2px solid #3498db;
 }
