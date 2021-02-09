@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Centro Educacional para crianças e adolecentes da comunidade do Bairro Santa Tereza e Medianeira, Zona Sul de Porto Alegre.">
+	<meta name="keywords" content="bercario,maternal,jardim instantil,amavtron,sase,creche,oficinas,projetos sociais,educacao infantil,scvf,pre-escola,obras sociais,vila cruzeiro">
+	<meta name="author" content="MNH">
+	<meta name="google-site-verification" content="CNMs0os4xxvPDtN5OHyYhXp3MGFdCAbLrK7vFsJ3QHU"/>
+	<title>AMAVTRON : SASE</title>
+	<!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="css/cb-style.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel:400">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:400,600,500,300,200">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30238731-1"></script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-30238731-1');
+</script>
