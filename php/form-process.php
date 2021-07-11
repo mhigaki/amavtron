@@ -50,7 +50,7 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-// send email
+// send emails
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
