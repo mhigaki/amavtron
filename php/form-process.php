@@ -32,7 +32,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "info@higatech.xyz";
+// $EmailTo = "info@higatech.xyz";
+$EmailTo = "info.amavtron@gmail.com";
 $Subject = "Website - contato";
 
 // prepare email body text
