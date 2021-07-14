@@ -42,7 +42,7 @@ h1,
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color: #3498db;
+    background-color: #3498db !important;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;

@@ -14,17 +14,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/amavtron.css"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel:400"> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:400,600,500,300,200">      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:400,600,500,300,200"> 
     <!-- Bootstrap core CSS -->     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->     
-    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->          
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   </head>   
   <body> 
     <header class="clearfix"> 
       <!-- Top Bar -->       
       <!-- Top Bar -->       
-      <div class="top-bar d-none d-sm-none d-md-none d-lg-block"> 
+      <div class="top-bar d-none d-sm-none d-md-none d-lg-block" data-pgc="top-bar"> 
         <div class="container"> 
           <div class="row"> 
             <div class="col-xs-12 col-sm-8"> 
@@ -37,10 +37,15 @@
                 </li>                 
                 <li> 
                   <div class="top"> 
+                    <i class="fa fa-whatsapp"></i> 
+                    <a href="callto:55 5132320253"></a> 
+                    |                     
+                  </div>                   
+                </li>
+                <li> 
+                  <div class="top"> 
                     <i class="fa fa-phone"></i> 
-                    <a href="callto:55 5132320253">+55 51 3232 0253</a> 
-                    |
-                    <a href="callto:55513233503">+55 51 3233 5031</a> 
+                    <a href="callto:55 5132320253"></a> 
                   </div>                   
                 </li>                 
               </ul>               
@@ -59,14 +64,14 @@
           </div>           
         </div>         
       </div>
-      <div class="nav__bar"> 
-        <nav class="navbar navbar-expand-sm navbar-light w-100"> 
-          <div class="container-fluid"> 
+      <div class="nav__bar" data-pgc="nav-bar"> 
+        <nav class="navbar navbar-expand-md navbar-light"> 
+          <div class="container"> 
             <!-- Brand and toggle get grouped for better mobile display -->             
             <a class="navbar-brand" href="index.html"> <img alt="Logo Amavtron" src="images/logo.png"> </a> 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-12" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
               <span class="navbar-toggler-icon"></span> 
-            </button>             
+            </button>
             <!-- Collect the nav links, forms, and other content for toggling -->             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12"> 
               <ul class="navbar-nav ml-auto"> 
@@ -94,7 +99,7 @@
                   <a class="nav-link" href="#galeria">Galeria</a> 
                 </li>                 
                 <li class="nav-item"> 
-                  <a class="nav-link" href="doacao.html">Doação</a> 
+                  <a class="nav-link" href="doacao.html" target="_parent">Doação</a> 
                 </li>                 
                 <li class="nav-item"> 
                   <a class="nav-link" href="contato.html">Contato</a> 
@@ -103,7 +108,7 @@
             </div>             
             <!-- /.navbar-collapse -->             
           </div>           
-          <!-- /.container -->           
+          <!-- /.container -->
         </nav>         
       </div>       
       <!-- End / Top Bar -->       

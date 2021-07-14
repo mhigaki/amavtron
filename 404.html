@@ -27,7 +27,7 @@
     <header class="clearfix"> 
       <!-- Top Bar -->       
       <!-- Top Bar -->       
-      <div class="top-bar d-none d-sm-none d-md-none d-lg-block"> 
+      <div class="top-bar d-none d-sm-none d-md-none d-lg-block" data-pgc="top-bar"> 
         <div class="container"> 
           <div class="row"> 
             <div class="col-xs-12 col-sm-8"> 
@@ -40,10 +40,15 @@
                 </li>                 
                 <li> 
                   <div class="top"> 
+                    <i class="fa fa-whatsapp"></i> 
+                    <a href="callto:55 5132320253"></a> 
+                    |                     
+                  </div>                   
+                </li>
+                <li> 
+                  <div class="top"> 
                     <i class="fa fa-phone"></i> 
-                    <a href="callto:55 5132320253">+55 51 3232 0253</a> 
-                    |
-                    <a href="callto:55513233503">+55 51 3233 5031</a> 
+                    <a href="callto:55 5132320253"></a> 
                   </div>                   
                 </li>                 
               </ul>               
@@ -64,14 +69,14 @@
       </div>       
       <!-- End / Top Bar -->       
       <!-- End / Top Bar -->       
-      <div class="nav__bar"> 
-        <nav class="navbar navbar-expand-sm navbar-light w-100"> 
-          <div class="container-fluid"> 
+      <div class="nav__bar" data-pgc="nav-bar"> 
+        <nav class="navbar navbar-expand-md navbar-light"> 
+          <div class="container"> 
             <!-- Brand and toggle get grouped for better mobile display -->             
             <a class="navbar-brand" href="index.html"> <img alt="Logo Amavtron" src="images/logo.png"> </a> 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-12" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
               <span class="navbar-toggler-icon"></span> 
-            </button>             
+            </button>
             <!-- Collect the nav links, forms, and other content for toggling -->             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-12"> 
               <ul class="navbar-nav ml-auto"> 
@@ -99,7 +104,7 @@
                   <a class="nav-link" href="#galeria">Galeria</a> 
                 </li>                 
                 <li class="nav-item"> 
-                  <a class="nav-link" href="doacao.html">Doação</a> 
+                  <a class="nav-link" href="doacao.html" target="_parent">Doação</a> 
                 </li>                 
                 <li class="nav-item"> 
                   <a class="nav-link" href="contato.html">Contato</a> 
@@ -108,7 +113,7 @@
             </div>             
             <!-- /.navbar-collapse -->             
           </div>           
-          <!-- /.container -->           
+          <!-- /.container -->
         </nav>         
       </div>       
     </header>     
@@ -119,8 +124,8 @@
             <div class="image-404 d-md-none"> 
               <img alt="Logo" class="text-center" src="images/logo.png"> 
             </div>             
-            <h1 style="color: #000000;">404</h1> 
-            <p style="color: #000000;">Oops, Página não encontrada!</p> 
+            <h1>404</h1> 
+            <p>Oops, Página não encontrada!</p> 
             <div class="text-center"> 
               <a href="index.html" class="btn">Home</a> 
             </div>             
