@@ -95,8 +95,8 @@ body {
 }
 
 .nav__bar .navbar .navbar-toggler,
-.nav__bar .navbar .navbar-toggler:focus,
-.nav__bar .navbar .navbar-toggler:hover {
+.nav__bar .navbar .navbar-toggler:focus,
+.nav__bar .navbar .navbar-toggler:hover {
     background: none;
     color: white;
     border: 1px;
@@ -115,7 +115,7 @@ body {
 }
 
 .nav__bar .navbar .navbar-nav > .active > a:hover,
-.nav__bar .navbar .navbar-nav > .active > a:focus {
+.nav__bar .navbar .navbar-nav > .active > a:focus {
     color: #fff;
     background: none;
 }
@@ -125,7 +125,7 @@ body {
 }
 
 .nav__bar .navbar .navbar-nav > li > a,
-.nav__bar .navbar .navbar-nav > li > a:focus {
+.nav__bar .navbar .navbar-nav > li > a:focus {
     color: #fff !important;
     background: none;
     font-size: 16px;
@@ -141,7 +141,7 @@ body {
 }
 
 .nav__bar .navbar .navbar-collapse,
-.navbar .navbar-form {
+.navbar .navbar-form {
     border-color: #e7e7e7;
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 .nav__bar .dropdown-item:hover,
-.nav__bar .dropdown-item:focus {
+.nav__bar .dropdown-item:focus {
     color: #000000;
     text-decoration: none;
     background-color: #6dbef4;
@@ -166,7 +166,7 @@ body {
 }
 
 .navbar > .container,
-.navbar > .container-fluid {
+.navbar > .container-fluid {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -178,4 +178,33 @@ body {
     -ms-flex-pack: justify;
     -webkit-box-pack: justify;
     justify-content: space-between;
+}
+
+#top {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 40px;
+    height: 50px;
+    border-radius: 70px 70px 0 0;
+    background-image: url('../images/gotop_icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 9999999999999999999;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    background-color: #3498db;
+}
+
+#top.active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
 }
