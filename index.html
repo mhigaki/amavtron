@@ -25,10 +25,10 @@
     <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
   </head>
   <body id="wrap">
-    <header class="clearfix">
+    <header>
       <!-- Top Bar -->
       <!-- Top Bar -->
-      <div class="top-bar d-none d-sm-none d-md-none d-lg-block" data-pgc="top-bar"> 
+      <div class="top-bar d-none d-sm-none d-md-none d-lg-block" data-pgc="top-bar" data-pg-collapsed> 
         <div class="container"> 
           <div class="row"> 
             <div class="col-xs-12 col-sm-8"> 
@@ -68,7 +68,7 @@
       </div>
       <!-- End / Top Bar -->
       <!-- End / Top Bar -->
-      <div class="nav__bar" data-pgc="nav-bar"> 
+      <div class="nav__bar sticky-top" data-pgc="nav-bar"> 
         <nav class="navbar navbar-expand-md navbar-light"> 
           <div class="container"> 
             <!-- Brand and toggle get grouped for better mobile display -->             
@@ -116,11 +116,11 @@
         </nav>         
       </div>
     </header>
-    <main>
+    <main data-pg-collapsed>
       <section id="slider" data-pgc="slider"> 
         <div class="cb-header35" style="background-image: url('images/amavtron-frente.png');"> 
           <div class="overlay"> 
-            <div class="container-fluid w-100 h-100"> 
+            <div class="container-fluid h-100 w-100"> 
               <div class="row h-100"> 
                 <div class="align-items-center content d-flex flex-column justify-content-center w-100"> 
                   <h1> 
