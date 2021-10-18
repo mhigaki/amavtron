@@ -64,7 +64,7 @@ article,
 main,
 nav,
 section {
-    display: inline;
+    display: block;
 }
 
 body {
